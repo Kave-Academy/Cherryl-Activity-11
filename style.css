@@ -1,0 +1,66 @@
+body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c4a46a+1,ed6607+100 */
+  background: #c4a46a; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #c4a46a 1%,
+    #ed6607 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #c4a46a 1%,
+    #ed6607 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #c4a46a 1%,
+    #ed6607 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4a46a', endColorstr='#ed6607',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  background: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 1.5em 3em;
+  background-color: rgba(255, 255, 255, 0.35);
+  display: block;
+  list-style-type: none;
+  margin: 2em;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+/**/
+button {
+  display: block;
+  color: white;
+  background: #ed6607;
+  padding: 8px 50px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50px;
+  margin: 2em 0;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  clip-path: circle(500px at center 900px);
+}
